@@ -1,0 +1,57 @@
+
+.containervari {
+    color: lightgreen;
+}
+
+.vihrea {
+    background-color: cadetblue;
+}
+
+.link-vari {
+    color: white !important
+}
+
+.link-hover:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(/kuvat/Pielalinja-oy.png) !important;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.testi {
+    color: red;
+}
+
+.img-koko {
+    
+    
+}
+
+.text-keski {
+    text-align: center;
+}
+
+.padding-top {
+    padding-top: 20px;
+    
+}
+
+
+
+.shadow-small {
+    
+}
