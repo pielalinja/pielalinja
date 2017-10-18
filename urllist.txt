@@ -1,5 +1,8 @@
-https://pielalinja.github.io/
-https://pielalinja.github.io/index.html
-https://pielalinja.github.io/about.html
-https://pielalinja.github.io/services.html
-https://pielalinja.github.io/contact.html
+http://pielalinja.com/
+http://pielalinja.com/index.html
+http://pielalinja.com/about.html
+http://pielalinja.com/services.html
+http://pielalinja.com/contact.html
+
+
+
