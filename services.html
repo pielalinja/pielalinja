@@ -94,43 +94,20 @@ s0.parentNode.insertBefore(s1,s0);
 
       <div class="row text-center text-lg-left">
 
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="kuvat/kuvia-autoista/edesta.jpg" data-toggle="lightbox" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="kuvat/kuvia-autoista/kuvat/auto-takaa.jpg" data-toggle="lightbox" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        
-      </div>
+        <a href="kuvat/kuvia-autoista/edesta.jpg" data-toggle="lightbox" data-gallery="auto1" class="col-12">
+    <img src="kuvat/kuvia-autoista/Thumnails/edesta-tb.jpg" class="img-fluid img-thumbnail">
+</a>
+
+<!-- elements not showing, use data-remote -->
+<div data-toggle="lightbox" data-gallery="auto1" data-remote="pielalinja.github.io\kuvat\kuvia-autoista\kuvat\auto1.jpg" data-title="Pikku bussimme"></div>
+<div data-toggle="lightbox" data-gallery="auto1" data-remote="https://www.youtube.com/embed/b0jqPvpn3sY" data-title="Hidden item 2"></div>
+<div data-toggle="lightbox" data-gallery="auto1" data-remote="https://unsplash.it/1200/768.jpg?image=265" data-title="Hidden item 3"></div>
+<div data-toggle="lightbox" data-gallery="auto1" data-remote="https://unsplash.it/1200/768.jpg?image=266" data-title="Hidden item 4"></div>
+<div data-toggle="lightbox" data-gallery="auto1" data-remote="https://unsplash.it/1200/768.jpg?image=267" data-title="Hidden item 5"></div>
       
       </div>
-
+      <br>
+     </div>
     </div>
     <!-- /.container -->
      
@@ -160,6 +137,16 @@ s0.parentNode.insertBefore(s1,s0);
             });</script>
      
 
+     <script>$(this).ekkoLightbox({
+                alwaysShowClose: true,
+                onShown: function() {
+                    console.log('Checking our the events huh?');
+                },
+                onNavigate: function(direction, itemIndex)
+                    console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                }
+                ...
+            });</script>
 
      
   </body>
