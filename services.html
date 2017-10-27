@@ -12,10 +12,13 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-      <link href="css/sepsu.css" rel="stylesheet">
+      
+      <link rel="stylesheet" href="css/sepsu.css">
+         <link rel="stylesheet" href="dist/ekko-lightbox.css">
          
          
       
@@ -84,59 +87,52 @@ s0.parentNode.insertBefore(s1,s0);
       <img class="img-fluid rounded mb-4" src="/kuvat/backup-kuvat/tilausajot.png" alt="">
 
       <!-- Marketing Icons Section -->
-      
-      
-      
-      
-      
-      
-      <div class="row">
-      
-      
+       <!-- Page Content -->
+    <div class="container">
 
-      
-      
-      <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-       
+      <h1 class="my-4 text-center text-lg-left">Kalustomme</h1>
 
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
+      <div class="row text-center text-lg-left">
+
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="kuvat/kuvia-autoista/edesta.jpg" data-toggle="lightbox" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
+        
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="kuvat/kuvia-autoista/kuvat/auto-takaa.jpg" data-toggle="lightbox" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
         </div>
+        
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" data-toggle="lightbox" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        
       </div>
-      <!-- /.row -->
       
-      
-     
-     </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
      
      
       
@@ -154,9 +150,14 @@ s0.parentNode.insertBefore(s1,s0);
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    
+    <script src="dist/ekko-lightbox.js"></script>
+    <script src="dist/ekko-lightbox.min.js"></script>
      
-   
+   <script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });</script>
      
 
 
