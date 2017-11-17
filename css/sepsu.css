@@ -80,3 +80,36 @@
 .header-fontti {
     font-family: 'El Messiri', sans-serif;
 }
+
+
+
+.testi-shadow {
+    
+}
+
+.shadow-div {
+    
+}
+
+.asd {
+    
+    
+    width: auto;
+    border: 1px solid #000;
+}
+
+.shadow {
+    border: 15px solid !important;
+    border-color: cadetblue !important;
+    
+}
+
+.img-fluid-1 {
+ max-width: 100%;
+  height: auto;
+}
+
+.hover:hover {
+    border-color: lightgreen!important;
+    
+}
