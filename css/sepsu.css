@@ -119,3 +119,17 @@
     font-family: 'Cinzel', serif !important;
     font-size: 35px !important;
 }
+
+.puh {
+    font-family: 'Vollkorn SC', serif !important;
+    font-size: 30px !important;
+}
+
+.sahko {
+    font-family: 'Vollkorn SC', serif !important;
+    font-size: 30px !important;
+}
+
+.no-underline:hover {
+    text-decoration: none !important;
+}
