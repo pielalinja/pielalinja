@@ -76,7 +76,7 @@
 }
 
 .header-fontti {
-    font-family: 'El Messiri', sans-serif;
+    font-family: 'El Messiri', sans-serif !important;
 }
 
 
@@ -102,4 +102,9 @@
 
 .fontti-h6 {
     font-family: 'Cinzel', serif;
+}
+
+.fontti-testi {
+   font-family: 'Kalam', cursive !important;
+    font-size: 30px !important;
 }
