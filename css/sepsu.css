@@ -1,4 +1,3 @@
-
 .containervari {
     color: lightgreen;
 }
@@ -43,25 +42,26 @@
 
 .padding-top {
     padding-top: 20px;
-    
+
 }
 
 
 
 
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 
@@ -75,10 +75,7 @@
     style="border:0;"
 }
 
-.header-fontti {
-    font-family: 'El Messiri', sans-serif !important;
-    
-}
+
 
 
 
@@ -88,48 +85,70 @@
 .shadow {
     border: 15px solid !important;
     border-color: cadetblue !important;
-    
+
 }
 
 .img-fluid-1 {
- max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .hover:hover {
     border-color: lightgreen !important;
-    
+
 }
 
-.fontti-h6 {
-    font-family: 'Cinzel', serif !important;
-}
 
-.fontti-testi {
-   font-family: 'Kalam', cursive !important;
-    font-size: 30px !important;
-}
 
-.header-fontti-1 {
-    font-family: 'El Messiri', sans-serif !important;
-    font-size: 30px !important;
-}
 
-.fontti-h6-1 {
-    font-family: 'Cinzel', serif !important;
-    font-size: 35px !important;
-}
 
-.puh {
-    font-family: 'Vollkorn SC', serif !important;
-    font-size: 30px !important;
-}
 
-.sahko {
-    font-family: 'Vollkorn SC', serif !important;
-    font-size: 30px !important;
-}
 
 .no-underline:hover {
     text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif !important;
+
+}
+
+.fontti-testi {
+    font-size: 25px !important;
+}
+
+.header-fontti-1 {
+    font-size: 35px;
+}
+
+.fontti-h6-1 {
+    font-size: 25px
+}
+
+p {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.sahko {
+    font-size: 24px;
+}
+
+.puh {
+    font-size: 24px;
+}
+
+.koko-h6 {
+    font-size: 24px;
+}
+body{
+    
+}
+.tietoja-body {
+   
+        
 }
