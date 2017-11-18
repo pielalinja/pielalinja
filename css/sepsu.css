@@ -149,6 +149,11 @@ body{
     
 }
 .tietoja-body {
-   
+
         
+}
+
+.tausta-kuva {
+    background-image: url(/kuvat/taustakuva/taustakuva.jpg);
+    background-size: cover;
 }
