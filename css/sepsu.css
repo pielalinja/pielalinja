@@ -157,3 +157,6 @@ body{
     background-image: url(/kuvat/taustakuva/taustakuva.jpg);
     background-size: cover;
 }
+.sqs-lightbox-next { opacity: 1 !important; }
+
+.sqs-lightbox-previous { opacity: 1 !important; }
