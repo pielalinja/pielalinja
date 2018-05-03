@@ -1,6 +1,9 @@
 .containervari {
     color: lightgreen;
 }
+.max-height{
+    max-height: 300px;
+}
 
 .vihrea {
     background-color: cadetblue;
@@ -45,6 +48,14 @@
 
 }
 
+.margin-bottom{
+    
+}
+.item {
+    flex-basis: 100%;
+    text-align: center;
+    border: 1px solid black;
+  }
 
 
 
@@ -145,13 +156,7 @@ p {
 .koko-h6 {
     font-size: 24px;
 }
-body{
-    
-}
-.tietoja-body {
 
-        
-}
 
 .tausta-kuva {
     background-image: url(/kuvat/taustakuva/taustakuva.jpg);
@@ -160,3 +165,23 @@ body{
 .sqs-lightbox-next { opacity: 1 !important; }
 
 .sqs-lightbox-previous { opacity: 1 !important; }
+.flex-box {
+	display: flex;
+	align-items: center;
+}
+
+.min-koko-teksti {
+		min-height: 100px;
+	min-width: 100px;
+}
+
+
+
+.min-koko {
+	min-height: 210px;
+}
+
+.koko100 {
+	margin-top: 10px;
+	min-height: 75px;
+}
